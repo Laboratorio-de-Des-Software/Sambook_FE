@@ -4,7 +4,7 @@ Repositório Front-end/Back-End/Banco de Dados
 
 <h1>Technologies used</h1>
 
-<div style="display: inline_block"><br>
+<div style="display: flex; justify:center"><br>
   <img align="center" alt="Sambook-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
   <img align="center" alt="Sambook-React" height="30" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"> 
   <img align="center" alt="Sambook-React" height="30" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
