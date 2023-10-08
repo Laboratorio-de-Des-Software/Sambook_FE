@@ -24,6 +24,4 @@ Será possível visitar os livros Abre-Alas de carnavais anteriores, entre outra
 
 # Arquitetura Utilizada
 
-
-
-
+![arquitetura sambook](https://github.com/Laboratorio-de-Des-Software/Sambook_FE/assets/66135800/622cd58b-a9d9-4d11-93f7-880e4550ad25)
