@@ -1,9 +1,8 @@
 import { FaDoorOpen } from 'react-icons/fa'
-import Card from '../Card/Card'
 
 const Header = () => {
   return (
-    <main>
+    <header>
       <div className="flex flex-rol justify-between items-center p-5 bg-blue-50 h-[100px]">
         <div>
           <h1 className="text-black text-2xl ml-5 ">Sambook</h1>
@@ -16,12 +15,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="h-[700px] flex flex-row">
-        <Card className="gap-5"/>
-        <Card />
-        
-      </div>
-    </main>
+    </header>
   )
 }
 
