@@ -25,3 +25,40 @@ Será possível visitar os livros Abre-Alas de carnavais anteriores, entre outra
 # Arquitetura Utilizada
 
 ![arquitetura sambook](https://github.com/Laboratorio-de-Des-Software/Sambook_FE/assets/66135800/622cd58b-a9d9-4d11-93f7-880e4550ad25)
+
+
+# Setting up the environment
+
+## Linux
+
+Update package manager
+
+```
+sudo apt update
+```
+
+Install NVM following the steps of the official repository
+
+- https://github.com/nvm-sh/nvm
+
+
+Install node v21.1.0
+
+```
+nvm install 21.1.0
+```
+
+Clone our repository -> go to the folder -> switch to the develop branch (git switch develop) -> finally, run:
+
+```
+npm install typescript --save-dev
+```
+
+You should be good to go.
+
+## Running the app
+
+After the setup, simply run
+```
+npm start
+```
