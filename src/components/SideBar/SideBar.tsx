@@ -9,8 +9,11 @@ const items = [
 const SideBar = () => {
   return (
     <div className="h-[calc(100%_-_100px)] w-[200px] bg-[#4E5453] text-white absolute">
+      <div className="relative text-[32px] bg-[#474A51] text-white text-center	font-bold" style={{ top: '-0.21px', height: '62px', width: '200px' }}>
+        Menu
+      </div>
       {items.map((item) => (
-        <div className="border-b border-b-white px-2 py-4 flex justify-between items-center cursor-pointer">
+        <div className="border-b border-b-white px-2 py-4 flex justify-between items-center cursor-pointer hover:bg-[#474A51]">
           {item.title.toUpperCase()}
           <ArrowIcon />
         </div>
