@@ -8,7 +8,6 @@ const MainTemplate = () => {
       <Header />
       <SideBar />
       <section className="ml-[200px] p-5">
-        <h1 className="text-black text-2xl"></h1>
         <Outlet />
       </section>
     </main>
