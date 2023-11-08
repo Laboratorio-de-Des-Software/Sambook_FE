@@ -7,10 +7,10 @@ const MainTemplate = () => {
     <main>
       <Header />
       <SideBar />
-      <div className="ml-[200px] p-5">
-        <h1 className="text-black text-2xl">Sambook Home Page</h1>
+      <section className="ml-[200px] p-5">
+        <h1 className="text-black text-2xl"></h1>
         <Outlet />
-      </div>
+      </section>
     </main>
   )
 }
