@@ -7,7 +7,7 @@ const MainTemplate = () => {
     <main>
       <Header />
       <SideBar />
-      <section className="ml-[200px] p-5">
+      <section className="ml-[200px] h-full p-5 bg-[#FFFFFF]">
         <Outlet />
       </section>
     </main>
