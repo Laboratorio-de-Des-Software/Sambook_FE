@@ -4,6 +4,7 @@ import './index.css'
 import MainTemplate from './MainTemplate'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Menu from './components/Menu'
+import Enredo from './components/Enredo'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,17 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <Menu />
+      }
+    ]
+  },
+
+  {
+    path: '/',
+    element: <MainTemplate />,
+    children: [
+      {
+        path: '/enredo',
+        element: <Enredo />
       }
     ]
   }
