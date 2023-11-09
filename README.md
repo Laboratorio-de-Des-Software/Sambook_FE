@@ -1,4 +1,5 @@
 # Sambook
+
 Sambook é um sistema de gerenciamento de livros Abre-Alas de carnaval, um projeto piloto criado para a LIESA, projeto piloto que entrará em teste no Rio de Janeiro
 Repositório Front-end/Back-End/Banco de Dados
 
@@ -14,6 +15,7 @@ Repositório Front-end/Back-End/Banco de Dados
 </div>
 
 # Introdução
+
 Após Vericarmos que o precesso de preparação do carnaval Carioca é bem extenso e muito arcaíco, decidimos nos reunir e automatizar esse poroceso e assim
 nasceu o SamBook, uma aplicação web que tem como intuito reunir as informações de praparação para o grande evento que acontece em fevereiro e março, o carnaval.
 
@@ -25,7 +27,6 @@ Será possível visitar os livros Abre-Alas de carnavais anteriores, entre outra
 # Arquitetura Utilizada
 
 ![arquitetura sambook](https://github.com/Laboratorio-de-Des-Software/Sambook_FE/assets/66135800/622cd58b-a9d9-4d11-93f7-880e4550ad25)
-
 
 # Setting up the environment
 
@@ -40,7 +41,6 @@ sudo apt update
 Install NVM following the steps of the official repository
 
 - https://github.com/nvm-sh/nvm
-
 
 Install node v21.1.0
 
@@ -59,6 +59,7 @@ You should be good to go.
 ## Running the app
 
 After the setup, simply run
+
 ```
 npm start
 ```
