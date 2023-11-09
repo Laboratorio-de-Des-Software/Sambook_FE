@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
+// import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md'
 
 const AccordionLayout = ({
   title,
@@ -8,8 +8,8 @@ const AccordionLayout = ({
   index,
   activeIndex,
   setActiveIndex
-}) => {
-  const handleSetIndex = (index) =>
+}: any) => {
+  const handleSetIndex = (index: any) =>
     activeIndex !== index && setActiveIndex(index)
 
   return (
@@ -23,11 +23,11 @@ const AccordionLayout = ({
           </div>
         </div>
         <div className="flex items-center justify-center">
-          {activeIndex === index ? (
+          {/* {activeIndex === index ? (
             <MdKeyboardArrowDown className="w-8 h-8" />
           ) : (
             <MdKeyboardArrowUp className="w-8 h-8" />
-          )}
+          )} */}
         </div>
       </div>
 
