@@ -1,5 +1,3 @@
-import { FaDoorOpen } from 'react-icons/fa'
-
 const Header = () => {
   return (
     <header>
@@ -10,9 +8,7 @@ const Header = () => {
         <h1 className="text-black text-2xl">Grande Rio</h1>
         <div className="flex flex-col ">
           <h2 className="text-black text-md ml-5 ">Gabriel Haddad</h2>
-          <p className="text-black float-right">
-            <FaDoorOpen className="float-right" />
-          </p>
+          <p className="text-black float-right"></p>
         </div>
       </div>
     </header>
