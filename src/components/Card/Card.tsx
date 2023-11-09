@@ -2,12 +2,12 @@ type info = {
   title: string
   icon: any
   status: string
-  href: string
+  link: string
 }
 
-const Card = ({ title, icon, status, href }: info) => {
+const Card = ({ title, icon, status, link }: info) => {
   return (
-    <a href={href || ''} className="rounded-lg gap-5 cursor-pointer ">
+    <a href={link || ''} className="rounded-lg gap-5 cursor-pointer ">
       <div className="flex flex-col justify-center items-center rounded-t-3xl bg-[#474A51] h-[50px] w-[200px] ">
         <p className="text-white font-lancelot">{title}</p>
       </div>
