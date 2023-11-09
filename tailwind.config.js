@@ -2,9 +2,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich'
+      primary: 'arial ',
+      secondary: 'Trebuchet MS',
+      lancelot: 'Lancelot '
     },
     container: {
       padding: {
@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     screens: {
-      sm: '640px',
+      sm: '420px',
       md: '768px',
       lg: '960px',
       xl: '1200px'

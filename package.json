@@ -23,25 +23,15 @@
     ]
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0",
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.13.3",
     "clsx": "^2.0.0",
-    "framer-motion": "^8.4.3",
     "react": "^18.2.0",
-    "react-countup": "^6.4.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-intersection-observer": "^9.4.1",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-type-animation": "^2.1.2",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss": "^3.2.4",
-    "typescript": "^5.2.2",
-    "web-vitals": "^2.1.4"
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -54,6 +44,7 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.0.1",
     "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.6"
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "typescript": "^5.2.2"
   }
 }
