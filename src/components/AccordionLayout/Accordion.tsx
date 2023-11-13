@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import AccordionLayout from './AccordionLayout'
+import Input from  '../Input/Input'
 
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(1)
@@ -11,7 +12,7 @@ const Accordion = () => {
         index={1}
         activeIndex={activeIndex}
         setActiveIndex={setActiveIndex}>
-        This is Accordion 1 Content
+        <Input label="Enredo" rows={4}/>
       </AccordionLayout>
 
       <AccordionLayout
