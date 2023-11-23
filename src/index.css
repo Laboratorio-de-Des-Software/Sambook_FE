@@ -2,5 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .sidebar-animation {
+        transition: opacity 0.3s ease-in-out, right 0.4s ease-in-out, visibility 1s linear;
+    }
 
-
+    .hide-menu-toggle {
+        &:hover {
+            .menu-toggle {
+                right:0;
+            }
+        }
+    }
+}

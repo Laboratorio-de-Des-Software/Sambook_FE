@@ -1,8 +1,8 @@
 type info = {
   title: string
-  icon: any
+  icon?: any
   status: string
-  link: string
+  link?: string
 }
 
 const Card = ({ title, icon, status, link }: info) => {
