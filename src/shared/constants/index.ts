@@ -1,5 +1,10 @@
-export const elements = [
-  { title: 'Home', href: '/', icon: 'icon-alegoria.svg' },
+export interface IElements {
+  title: string
+  href?: string
+  icon?: string
+}
+
+export const elements: IElements[] = [
   { title: 'Enredo', href: '/enredo', icon: 'icon-enredo.svg' },
   { title: 'Fantasia', href: '/fantasia', icon: 'icon-fantasia.svg' },
   { title: 'Alegoria', href: '/alegoria', icon: 'icon-alegoria.svg' },
