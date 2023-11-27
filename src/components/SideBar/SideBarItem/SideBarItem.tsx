@@ -14,7 +14,7 @@ const SideBarItem = ({
     <a
       onClick={onClick}
       href={!hasList ? href : undefined}
-      className="h-[49px] flex justify-between cursor-pointer hover:bg-[#5a5e66] bg-[#787c88] peer">
+      className="h-[49px] flex justify-between cursor-pointer hover:bg-[#5a5e66] bg-[#787c88] peer [&_svg]:fill-white">
       <div className="flex">
         <div className=" bg-white border rounded-r-3xl w-[45px] border-black flex items-center">
           <img
@@ -29,8 +29,8 @@ const SideBarItem = ({
       </div>
       {hasList && (
         <img
-          src={'images/icon-arrow.svg'}
-          className="w-4 color-white mr-2"
+          src={'images/icon-arrow-white.svg'}
+          className="w-4 mr-2 rotate-[180deg]"
           alt="arrow icon"
         />
       )}
