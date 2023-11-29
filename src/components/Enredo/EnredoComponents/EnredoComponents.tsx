@@ -39,15 +39,14 @@ export const FichaTecnica = () => {
         placeholder="Digite o nome do(s) elaboradores do roteiro do desfile"
       />
 
-      <div className="flex flex-row justify-end mr-6">
-        <button>submit</button>
-        {/* <Button
-          title="Adicionar Referências Biblíográficas +"
-          textColor="#1465bb"
-          background="#FFFFFF"
-          width="50px"
-          height="10px"
-        /> */}
+      <div className="flex flex-row justify-end mr-6 mt-5">
+        <Button
+          title="Salvar"
+          textColor="#030303"
+          background="#D9D9D9"
+          width="40px"
+          height="20px"
+        />
       </div>
     </form>
   )
@@ -67,7 +66,15 @@ export const Historico = () => {
         rows={5}
         placeholder="Aqui você diz sobre suas inspirações e um pouco mais sobre a contrução desta obra ..."
       />
-      <button>submit</button>
+      <div className="flex flex-row justify-end mr-6 mt-5">
+        <Button
+          title="Salvar"
+          textColor="#030303"
+          background="#D9D9D9"
+          width="40px"
+          height="20px"
+        />
+      </div>
     </form>
   )
 }
@@ -99,7 +106,15 @@ export const Justificativa = () => {
         rows={1}
         placeholder="Digite o nome do pesquisador"
       />
-      <button>submit</button>
+      <div className="flex flex-row justify-end mr-6 mt-5">
+        <Button
+          title="Salvar"
+          textColor="#030303"
+          background="#D9D9D9"
+          width="40px"
+          height="20px"
+        />
+      </div>
     </form>
   )
 }
@@ -119,7 +134,15 @@ export const Roteiro = () => {
         rows={5}
         placeholder="Aqui você descreve o roteiro do seu desfile ..."
       />
-      <button>submit</button>
+      <div className="flex flex-row justify-end mr-6 mt-5">
+        <Button
+          title="Salvar"
+          textColor="#030303"
+          background="#D9D9D9"
+          width="40px"
+          height="20px"
+        />
+      </div>
     </form>
   )
 }

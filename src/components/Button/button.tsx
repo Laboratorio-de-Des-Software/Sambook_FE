@@ -8,9 +8,9 @@ type info = {
 
 const Button = (props: info) => {
   return (
-    <div className="flex flex-col justify-center items-center border-solid  border-2 border-black  cursor-pointer bg-[{props.background}] w-[{props.width}] h-[{props.height}] rounded-lg">
-      <h1 className="text-[{props.textColor}] text-xl mx-3">{props.title} </h1>
-    </div>
+    <button className="justify-center items-center border-solid  border-2 border-black p-2 cursor-pointer bg-[{props.background}] w-[{props.width}] h-[{props.height}] rounded-2xl text-xl mx-3">
+      {props.title}
+    </button>
   )
 }
 
