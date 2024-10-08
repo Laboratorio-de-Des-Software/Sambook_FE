@@ -4,7 +4,8 @@ import {
   FichaTecnica,
   Historico,
   Justificativa,
-  Roteiro
+  Roteiro,
+  OutrasInfo
 } from './EnredoComponents/EnredoComponents'
 
 const items = [
@@ -23,6 +24,10 @@ const items = [
   {
     title: 'Roteiro',
     children: <Roteiro />
+  },
+  {
+    title: 'Outras informações julgadas necessárias',
+    children: <OutrasInfo />
   }
 ]
 
@@ -30,7 +35,7 @@ const Enredo = () => {
   return (
     <div className="flex flex-col">
       <div className="flex flex-row justify-end mr-6 gap-x-1">
-        <Button
+        {/*<Button
           title="Editar"
           textColor="#030303"
           background="#D9D9D9"
@@ -43,7 +48,7 @@ const Enredo = () => {
           background="black"
           width="50px"
           height="10px"
-        />
+  />*/}
       </div>
 
       <div className="lg:flex lg:flex-col lg:items-center lg:p-5 lg:gap-2 md:flex md:flex-row md:items-center sm:flex sm:flex-col sm:items-center ">

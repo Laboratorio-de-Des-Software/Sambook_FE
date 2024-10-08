@@ -2,5 +2,6 @@ export {
   FichaTecnica,
   Historico,
   Justificativa,
-  Roteiro
+  Roteiro,
+  OutrasInfo,
 } from './EnredoComponents'

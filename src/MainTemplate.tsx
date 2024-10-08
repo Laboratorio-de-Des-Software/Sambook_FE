@@ -4,7 +4,7 @@ import SideBar from './components/SideBar/SideBar'
 
 const MainTemplate = () => {
   return (
-    <main className="relative min-h-screen">
+    <main className="relative">
       <Header />
       <SideBar />
       <section className="ml-[200px] h-full p-5 bg-[#FFFFFF]">

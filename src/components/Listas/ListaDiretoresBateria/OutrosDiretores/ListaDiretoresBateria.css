@@ -1,0 +1,26 @@
+.icone-acao{
+  margin-left: 7px;
+  margin-right: 7px;
+}
+  
+.red{
+  color: red;
+}
+  
+.col-acao{
+  width: 80px;
+}
+  
+.btn-confirm {
+  background-color: #f8f9fa !important; /* Cor de fundo mais clara */
+  color: #000000 !important; /* Cor do texto preto */
+}
+    
+.lista-autores {
+  width: 500px !important;
+}
+  
+.input-group{
+  border-color: #000000 !important;
+}
+  

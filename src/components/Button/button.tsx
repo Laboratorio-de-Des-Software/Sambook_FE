@@ -4,11 +4,14 @@ type info = {
   background: string
   width: string
   height: string
+  onClick?: () => void
 }
 
 const Button = (props: info) => {
   return (
-    <button className="justify-center items-center border-solid  border-2 border-black p-2 cursor-pointer bg-[{props.background}] w-[{props.width}] h-[{props.height}] rounded-2xl text-xl mx-3">
+    <button
+      className="justify-center items-center border-solid  border-2 border-black p-2 cursor-pointer bg-[{props.background}] w-[{props.width}] h-[{props.height}] rounded-2xl text-xl mx-3"
+      onClick={props.onClick}>
       {props.title}
     </button>
   )

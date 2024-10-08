@@ -13,9 +13,9 @@ const AccordionLayout = ({ title, children }: any) => {
       <div
         onClick={() => setIsopen(!isopen)}
         className="flex justify-between items-center">
-        <span className="font-lancelot h-5 text-black text-xl">{title}</span>
+        <span className="font-alegreya h-5 text-black text-xl">{title}</span>
         <img
-          src="images/icon-arrow-black.svg"
+          src="/images/icon-arrow-black.svg"
           alt="icone seta"
           className={cn(
             'h-4 w-4 rotate-[270deg] transition ease-in-out duration-500',

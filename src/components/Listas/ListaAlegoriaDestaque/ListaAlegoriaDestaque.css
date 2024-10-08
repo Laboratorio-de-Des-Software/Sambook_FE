@@ -1,0 +1,13 @@
+.swal-wide {
+    width: 800px !important;
+}
+
+h1.card-title {
+    font-size: 24px;
+    /* Tamanho de fonte desejado */
+    font-weight: bold;
+    /* Peso da fonte desejado */
+}
+.black{
+  background-color: black;
+}

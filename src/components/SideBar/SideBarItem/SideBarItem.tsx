@@ -18,7 +18,7 @@ const SideBarItem = ({
       <div className="flex">
         <div className=" bg-white border rounded-r-3xl w-[45px] border-black flex items-center">
           <img
-            src={`images/${icon}`}
+            src={`/images/${icon}`}
             alt={`${title} icon`}
             className="ml-1 w-[30px]"
           />
@@ -29,7 +29,7 @@ const SideBarItem = ({
       </div>
       {hasList && (
         <img
-          src={'images/icon-arrow-white.svg'}
+          src={'/images/icon-arrow-white.svg'}
           className="w-4 mr-2 rotate-[180deg]"
           alt="arrow icon"
         />

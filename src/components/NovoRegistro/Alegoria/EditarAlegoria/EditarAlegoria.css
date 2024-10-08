@@ -1,0 +1,14 @@
+.btn-acao{
+    margin: 20px 20px 0px 20px;
+    min-width: 100px;
+}
+
+.centralizado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle{
+  background-color: black;
+}
