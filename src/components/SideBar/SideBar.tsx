@@ -9,7 +9,7 @@ export interface IItems extends IElements {
 }
 
 const items: IItems[] = [
-  { title: 'Home', href: '/', icon: 'icon-casa.svg' },
+  { title: 'Home', href: '/conteudo/menu', icon: 'icon-casa.svg' },
   { title: 'Elementos', href: '', icon: 'icon-alegoria.svg', hasList: true },
   { title: 'Organograma', href: '', icon: 'icon-organograma.svg' },
   { title: 'Gerar PDF', href: '', icon: 'icon-pdf.svg' }

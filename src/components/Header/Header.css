@@ -1,0 +1,17 @@
+/* Estilo do popover */
+.popover {
+    margin-top: 100000000000000000000000000000000000000000px;
+}
+
+/* Estilo da seta do popover */
+.arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+}

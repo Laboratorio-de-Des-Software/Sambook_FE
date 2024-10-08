@@ -1,0 +1,27 @@
+.red{
+  color: red;
+}
+
+.col-acao{
+  width: 80px;
+}
+
+.th {
+  font-size: 1px;
+}
+
+.tamanho {
+  width: 20%;
+}
+
+.fundo{
+  background-color: red;
+}
+
+.fundo .far.fa-trash-alt {
+  color: white; /* Defina a cor padrão do ícone */
+}
+
+.btn-danger{
+  background-color: red;
+}

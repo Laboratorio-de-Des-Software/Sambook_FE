@@ -2,9 +2,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'arial ',
+      primary: 'arial',
       secondary: 'Trebuchet MS',
-      lancelot: 'Lancelot '
+      lancelot: 'Lancelot ',
+      'marck-script': 'Marck Script'
     },
     container: {
       padding: {

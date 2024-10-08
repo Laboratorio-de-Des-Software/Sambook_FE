@@ -1,0 +1,5 @@
+.custom-scroll .ql-editor {
+    max-height: 300px; /* Altura máxima para a barra de rolagem */
+    overflow-y: auto; /* Adiciona a barra de rolagem vertical somente quando necessário */
+  }
+  
